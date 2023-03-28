@@ -1,5 +1,5 @@
 import React from 'react'
-import { Header, Home, Footer, About, Education, Experience, Services, Review, Tools, Contact } from '../sections'
+import { Header, Home, Footer, About, Education, Experience, Services, Tools, Contact } from '../sections'
 import { Row, Col, Container } from 'react-bootstrap'
 import ScrollTopArrow from './ScrollTopArrow'
 
@@ -23,7 +23,6 @@ function App() {
           </Row>
         </Container>
         <Services />
-        <Review />
         <Tools />
         <Contact />
       </main>

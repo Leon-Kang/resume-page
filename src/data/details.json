@@ -1,20 +1,20 @@
 {
-  "firstName": "kien",
+  "firstName": "Leon",
   "middleName": ".",
-  "lastName": "dang",
+  "lastName": "Kang",
   "avatar": "\/images\/avatar.svg",
   "titles": [
-    "Microsoft .NET developer",
+    "iOS developer",
     "Front-End developer",
-    "Data scientist"
+    "python developer"
   ],
   "socialNetworks": [
     {
-      "link": "https://github.com/kien-dang/react-resume-template",
+      "link": "https://github.com/Leon-Kang",
       "iconName": "faGithub"
     },
     {
-      "link": "https://www.linkedin.com/in/trung-kien-dang",
+      "link": "https://www.linkedin.com/in/%E6%A2%81-%E5%BA%B7-356546a3/",
       "iconName": "faLinkedin"
     }
   ]

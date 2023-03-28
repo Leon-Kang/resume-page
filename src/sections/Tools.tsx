@@ -15,7 +15,7 @@ export class Tools extends React.Component {
               <Col md={3} xs={6}>
                 <div className="knowledge">
                   <div className="item">
-                    <img src={t.image} alt={t.name} />
+                    <img src={t.image} alt={t.name} height={t.height} width={t.width}/>
                   </div>
                 </div>
               </Col>
