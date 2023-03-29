@@ -12,6 +12,3 @@ build/
 !.yarn/releases
 !.yarn/sdks
 !.yarn/versions
-*.zip
-.yarn/cache/util-deprecate-npm-1.0.2-e3fe1a219c-474acf1146.zip
-.yarn/cache/utila-npm-0.4.0-27b344403b-97ffd3bd2b.zip
