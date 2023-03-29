@@ -1,7 +1,7 @@
 {
 	"username": "Leon Kang",
 	"avatar": "../assets/images/avatar-primary-bg.svg",
-	"objective": "<p>I am a Microsoft .NET developer with more than 5 years of experience in developing, testing, and implementing webservices, microservices and web-based applications using Microsoft technologies, MS SQL Server, scheduled tasks, TFS and Azure services. <\/p> <p> I am ambitious and hardworking, innovative and creative, very flexible and adaptable. I am also a quick learner and master new technologies with ease; reliable team player as well as an independent individual. <\/p>",
+	"objective": "<p>As a dedicated and results-driven developer, I have 7 years of experience in software development. During this time, I have specialized in iOS for 3 years and frontend technologies for 4 years.</p> <p>I possess strong technical skills and am always seeking new challenges to expand my knowledge. I also have some experience in system administration and backend work. I enjoy learning and using new technologies to solve problems and improve lives.</p>",
 	"resumeUrl": "#",
 	"github": "https://github.com/Leon-Kang",
 	"skills": [
@@ -9,6 +9,11 @@
 			"name": "iOS",
 			"confidence": 95,
 			"color": "rgb(255, 209, 92)"
+		},
+		{
+			"name": "objective-c",
+			"confidence": 90,
+			"color": "rgb(51, 105, 30)"
 		},
 		{
 			"name": "Swift",
@@ -21,15 +26,16 @@
 			"color": "rgb(255, 76, 96)"
 		},
 		{
-			"name": "python",
+			"name": "React",
 			"confidence": 90,
 			"color": "rgb(51, 105, 30)"
 		},
 		{
-			"name": "objective-c",
+			"name": "python",
 			"confidence": 90,
 			"color": "rgb(51, 105, 30)"
 		}
+
 	],
 	"statistics": [
 		{
