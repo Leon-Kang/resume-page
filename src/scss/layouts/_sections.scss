@@ -57,3 +57,19 @@ section {
 		width: 37px;
 	}
 }
+
+.section-sub {
+	font-size: $font-size-xx-large;
+	fontWeight: 900;
+	margin: 0;
+	margin-left: 8px;
+	position: relative;
+}
+
+.section-foot {
+	font-size: $font-size-larger;
+	fontWeight: 700;
+	margin: 0;
+	margin-left: 8px;
+	position: relative;
+}
