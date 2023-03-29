@@ -4,12 +4,12 @@ import { fas } from '@fortawesome/free-solid-svg-icons'
 import { fab } from '@fortawesome/free-brands-svg-icons'
 
 library.add(
-  // Regular svg
-  far,
+    // Regular svg
+    far,
 
-  // Solid svg
-  fas,
+    // Solid svg
+    fas,
 
-  // Brands svg
-  fab
+    // Brands svg
+    fab
 )

@@ -6,30 +6,30 @@ import ScrollTopArrow from './ScrollTopArrow'
 import '../components/Icons'
 
 function App() {
-  return(
-    <>
-      <Header />
-      <main>
-        <Home />
-        <About />
-        <Container>
-          <Row>
-            <Col md={6}>
-              <Education />
-            </Col>
-            <Col md={6}>
-              <Experience />
-            </Col>
-          </Row>
-        </Container>
-        <Services />
-        <Tools />
-        <Contact />
-      </main>
-      <Footer />
-      <ScrollTopArrow />
-    </>
-  )
+    return (
+        <>
+            <Header/>
+            <main>
+                <Home/>
+                <About/>
+                <Container>
+                    <Row>
+                        <Col md={6}>
+                            <Education/>
+                        </Col>
+                        <Col md={6}>
+                            <Experience/>
+                        </Col>
+                    </Row>
+                </Container>
+                <Services/>
+                <Tools/>
+                <Contact/>
+            </main>
+            <Footer/>
+            <ScrollTopArrow/>
+        </>
+    )
 }
 
 export default App

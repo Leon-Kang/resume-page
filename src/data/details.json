@@ -1,21 +1,21 @@
 {
-  "firstName": "Leon",
-  "middleName": " ",
-  "lastName": "Kang",
-  "avatar": "\/images\/avatar.svg",
-  "titles": [
-    "iOS developer",
-    "Front-End developer",
-    "python developer"
-  ],
-  "socialNetworks": [
-    {
-      "link": "https://github.com/Leon-Kang",
-      "iconName": "faGithub"
-    },
-    {
-      "link": "https://www.linkedin.com/in/%E6%A2%81-%E5%BA%B7-356546a3/",
-      "iconName": "faLinkedin"
-    }
-  ]
+	"firstName": "Leon",
+	"middleName": " ",
+	"lastName": "Kang",
+	"avatar": "\/images\/avatar.svg",
+	"titles": [
+		"iOS developer",
+		"Front-End developer",
+		"python developer"
+	],
+	"socialNetworks": [
+		{
+			"link": "https://github.com/Leon-Kang",
+			"iconName": "faGithub"
+		},
+		{
+			"link": "https://www.linkedin.com/in/%E6%A2%81-%E5%BA%B7-356546a3/",
+			"iconName": "faLinkedin"
+		}
+	]
 }

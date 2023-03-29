@@ -1,52 +1,52 @@
 {
-    "tools": [
-        {
-            "name": "iOS",
-            "image": "\/images\/apple-bw.svg",
-            "height": 38,
-            "width": 38
-        },
-        {
-            "name": "swift",
-            "image": "\/images\/swift-bw.svg",
-            "height": 46,
-            "width": 46
-        },
-        {
-            "name": "react",
-            "image": "\/images\/react-bw.svg",
-            "height": 46,
-            "width": 46
-        },
-        {
-            "name": "python",
-            "image": "\/images\/python-bw.svg",
-            "height": 46,
-            "width": 46
-        },
-        {
-            "name": "typescript",
-            "image": "\/images\/typescript-bw.svg",
-            "height": 46,
-            "width": 108
-        },
-        {
-            "name": "objective-c",
-            "image": "\/images\/oc-bw.svg",
-            "height": 46,
-            "width": 108
-        },
-        {
-            "name": "html5",
-            "image": "\/images\/html5-bw.svg",
-            "height": 46,
-            "width": 46
-        },
-        {
-            "name": "css3",
-            "image": "\/images\/css3-bw.svg",
-            "height": 46,
-            "width": 46
-        }
-    ]
+	"tools": [
+		{
+			"name": "iOS",
+			"image": "\/images\/apple-bw.svg",
+			"height": 38,
+			"width": 38
+		},
+		{
+			"name": "swift",
+			"image": "\/images\/swift-bw.svg",
+			"height": 46,
+			"width": 46
+		},
+		{
+			"name": "react",
+			"image": "\/images\/react-bw.svg",
+			"height": 46,
+			"width": 46
+		},
+		{
+			"name": "python",
+			"image": "\/images\/python-bw.svg",
+			"height": 46,
+			"width": 46
+		},
+		{
+			"name": "typescript",
+			"image": "\/images\/typescript-bw.svg",
+			"height": 46,
+			"width": 108
+		},
+		{
+			"name": "objective-c",
+			"image": "\/images\/oc-bw.svg",
+			"height": 46,
+			"width": 108
+		},
+		{
+			"name": "html5",
+			"image": "\/images\/html5-bw.svg",
+			"height": 46,
+			"width": 46
+		},
+		{
+			"name": "css3",
+			"image": "\/images\/css3-bw.svg",
+			"height": 46,
+			"width": 46
+		}
+	]
 }
