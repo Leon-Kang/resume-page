@@ -19,7 +19,7 @@ export class Timeline extends React.Component<Props> {
         const IconBox = styled.div({
             background: '#fff',
             fontSize: '24px',
-            color: '#ff4c60',
+            color: '#84bcf4',
             position: 'absolute',
             left: this.props.left ? this.props.left : '-10px',
             top: 0,
