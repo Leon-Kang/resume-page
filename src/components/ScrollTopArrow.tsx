@@ -21,7 +21,7 @@ const ScrollTopArrow = () => {
 
     return (
         <div id="return-to-top" style={{ display: showScroll ? 'block' : 'none' }} onClick={scrollTop}>
-            <FontAwesomeIcon icon={[ 'fas', 'arrow-up' ]}/>
+            <FontAwesomeIcon icon={[ 'fas', 'arrow-up' ]} style={{ paddingLeft: 2 }}/>
         </div>
     )
 }

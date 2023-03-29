@@ -12,7 +12,10 @@ export class Footer extends React.Component {
         return (
             <StyledFooter className="footer">
                 <Container>
-                    <span className="copyright">© {(new Date()).getFullYear()} {about.username}.</span>
+                    <span className="copyright">© {(new Date()).getFullYear()}
+                        {about.username} -
+                        <a className="mail" href="mailto:me@leonkang.com">  me@leonkang.com</a>
+                    </span>
                 </Container>
             </StyledFooter>
         )
