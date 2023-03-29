@@ -18,8 +18,7 @@ export class About extends React.Component {
             <Row>
               <Col md={12}>
                 <div className="text-center mb-3">
-                  {/* <img src={about.avatar} alt="kiendang" style={{ width: '150px' }} /> https://www.npmjs.com/package/copy-webpack-plugin */}
-                  <img src={require('../assets/images/avatar-primary-bg.svg')} alt="kiendang" style={{ width: '150px' }} />
+                  <img src={require('../assets/images/avatar-primary-bg.svg')} alt="leon" style={{ width: '150px' }} />
                 </div>
               </Col>
               <Col md={12}>

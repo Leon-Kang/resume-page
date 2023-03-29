@@ -22,17 +22,17 @@ export class Home extends React.Component {
         </div>
         <Container>
           <div className="intro">
-            <img src={details.avatar} alt="kien dang" className="mb-4" />
+            <img src={details.avatar} alt="leon" className="mb-4" />
 
-            <h1 className="mb-2 mt-0">
+            <h1 className="h1 mt-0">
               {details.firstName}
               <Dot>{details.middleName}</Dot>
               {details.lastName}
             </h1>
 
-            <span>              
+            <span>
               {`I'm a `}
-              <TextLoop springConfig={{ stiffness: 180, damping: 10 }} interval={2000}>
+              <TextLoop springConfig={{ stiffness: 180, damping: 10 }} interval={2600}>
                 {details.titles.map(t => (<span key={t}>{t}</span>))}
               </TextLoop>
             </span>

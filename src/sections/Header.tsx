@@ -6,9 +6,9 @@ import details from '../data/details.json'
 
 const Logo = styled.span({
   color: '#fff',
-  fontSize: '36px',
+  fontSize: '32px',
   fontFamily: 'Rubik, sans-serif',
-  fontWeight: 700,
+  fontWeight: 600,
   lineHeight: '36px'
 })
 
