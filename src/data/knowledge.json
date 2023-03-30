@@ -13,26 +13,20 @@
 			"width": 46
 		},
 		{
+			"name": "objective-c",
+			"image": "\/images\/oc-bw.svg",
+			"height": 46,
+			"width": 108
+		},
+		{
 			"name": "react",
 			"image": "\/images\/react-bw.svg",
 			"height": 46,
 			"width": 46
 		},
 		{
-			"name": "python",
-			"image": "\/images\/python-bw.svg",
-			"height": 46,
-			"width": 46
-		},
-		{
 			"name": "typescript",
 			"image": "\/images\/typescript-bw.svg",
-			"height": 46,
-			"width": 108
-		},
-		{
-			"name": "objective-c",
-			"image": "\/images\/oc-bw.svg",
 			"height": 46,
 			"width": 108
 		},
@@ -45,6 +39,12 @@
 		{
 			"name": "css3",
 			"image": "\/images\/css3-bw.svg",
+			"height": 46,
+			"width": 46
+		},
+		{
+			"name": "python",
+			"image": "\/images\/python-bw.svg",
 			"height": 46,
 			"width": 46
 		}
