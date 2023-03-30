@@ -9,7 +9,7 @@ const services = ServiceConfig.services
 export class Services extends React.Component {
     render() {
         return (
-            <Section id="services" title="Services">
+            <Section id="services" title="I Can">
                 <Row>
                     {services.map(s => (
                         <Col md={4} key={s.title}>
