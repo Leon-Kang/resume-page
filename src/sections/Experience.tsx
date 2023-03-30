@@ -12,17 +12,34 @@ export class Experience extends React.Component {
             <Section id="experience" title="Experience">
                 <Row>
                     <Col md={12}>
-                        <div className="timeline edu bg-white rounded shadow-dark padding-30 overflow-hidden">
-
+                        <div className="bg-white rounded shadow-dark padding-30 overflow-hidden">
                             {career.map(c => (
-                                <Timeline key={c.company} time={c.period} title={c.title} icon={[ 'fas', 'briefcase' ]}
-                                          left="-7px">
-                                    <p>{c.company}</p>
-                                    <div dangerouslySetInnerHTML={{ __html: c.description }}/>
-                                </Timeline>
+                                <div key={c.company} >
+                                    <Row>
+                                        <h3 className="section-sub">
+                                            {c.company}
+                                        </h3>
+                                        <div className="section-foot">
+                                            {c.description}
+                                        </div>
+                                    </Row>
+
+                                    <div className="timeline edu job-titles overflow-hidden">
+                                        {c.titles.map(item => (
+                                            <Timeline
+                                                key={item.title}
+                                                time={item.period}
+                                                title={item.title}
+                                                icon={[ 'fas', 'briefcase' ]}
+                                                left="-7px"
+                                            />
+                                        ))}
+
+                                        <span className="line"/>
+                                    </div>
+                                </div>
                             ))}
 
-                            <span className="line"/>
                         </div>
                     </Col>
                 </Row>

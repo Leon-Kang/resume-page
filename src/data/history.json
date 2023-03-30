@@ -9,10 +9,22 @@
 	],
 	"career": [
 		{
-			"period": "2020 - Present",
+			"titles": [
+				{
+					"period": "2016.3 - 2016.6",
+					"title": "Intern"
+				},
+				{
+					"period": "2016.7 - 2019.10",
+					"title": "iOS Developer"
+				},
+				{
+					"period": "2019.11 - Present",
+					"title": "Front-End Developer"
+				}
+			],
 			"company": "The NetCircle",
-			"title": "Front-End Developer",
-			"description": "<p>Shanghai, China<\/p>"
+			"description": "Shanghai, China"
 		}
 	]
 }

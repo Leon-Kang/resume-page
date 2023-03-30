@@ -9,7 +9,7 @@ $font-awesome: "Font Awesome 5 Free";
 
 	.timeline-container {
 		padding-left: 50px;
-		margin-bottom: 50px;
+		margin-bottom: 18px;
 		position: relative;
 		background-color: inherit;
 		width: 100%;
@@ -93,6 +93,12 @@ $font-awesome: "Font Awesome 5 Free";
 
 .padding-30 {
 	padding: 30px;
+}
+
+.job-titles {
+	padding-left: 30px;
+	padding-right: 16px;
+	padding-top: 16px;
 }
 
 .triangle-left {
@@ -180,13 +186,12 @@ $font-awesome: "Font Awesome 5 Free";
 	position: fixed;
 	bottom: 25px;
 	right: 25px;
-	background: rgba(0, 0, 0, 0.2);
-	width: 40px;
-	height: 40px;
+	background: $color-btn-contact;
+	width: 42px;
+	height: 42px;
 	display: block;
 	text-decoration: none;
 	border-radius: 100%;
-	display: none;
 	z-index: 4;
 	transition: all 0.3s ease-in-out;
 	cursor: pointer;
@@ -203,6 +208,6 @@ $font-awesome: "Font Awesome 5 Free";
 	}
 
 	&:hover {
-		background: $color-primary;
+		background: $color-btn-contact-highlight;
 	}
 }

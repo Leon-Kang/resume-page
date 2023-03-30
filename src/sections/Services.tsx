@@ -21,13 +21,6 @@ export class Services extends React.Component {
                         </Col>
                     ))}
                 </Row>
-                <Row>
-                    <Col md={12}>
-                        <div className="mt-3 text-center">
-                            <div className="mb-0" dangerouslySetInnerHTML={{ __html: ServiceConfig.customContent }}/>
-                        </div>
-                    </Col>
-                </Row>
             </Section>
         )
     }

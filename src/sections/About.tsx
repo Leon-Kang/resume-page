@@ -1,8 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import { Row, Col } from 'react-bootstrap'
-import { Skill, Counter, Section } from '../components'
-import { IconPrefix, IconName } from '@fortawesome/fontawesome-svg-core'
+import { Skill, Section } from '../components'
 import about from '../data/about.json'
 
 const Name = styled.div`
@@ -55,14 +54,14 @@ export class About extends React.Component {
                 </Row>
 
                 <Row className="mt-5">
-                    {about.statistics.map(statistic => (
-                        <Counter
-                            key={statistic.title}
-                            className="col-md-3 col-sm-6"
-                            description={statistic.title}
-                            count={statistic.number}
-                            icon={[ statistic.iconPrefix as IconPrefix, statistic.iconName as IconName ]}/>
-                    ))}
+                    {/*{about.statistics.map(statistic => (*/}
+                    {/*    <Counter*/}
+                    {/*        key={statistic.title}*/}
+                    {/*        className="col-md-3 col-sm-6"*/}
+                    {/*        description={statistic.title}*/}
+                    {/*        count={statistic.number}*/}
+                    {/*        icon={[ statistic.iconPrefix as IconPrefix, statistic.iconName as IconName ]}/>*/}
+                    {/*))}*/}
                 </Row>
             </Section>
         )

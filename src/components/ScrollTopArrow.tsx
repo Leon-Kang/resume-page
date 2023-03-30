@@ -6,9 +6,9 @@ const ScrollTopArrow = () => {
     const [ showScroll, setShowScroll ] = useState(false)
 
     const checkScrollTop = () => {
-        if (!showScroll && window.pageYOffset > 400) {
+        if (!showScroll && window.scrollY > 400) {
             setShowScroll(true)
-        } else if (showScroll && window.pageYOffset <= 400) {
+        } else if (showScroll && window.scrollY <= 400) {
             setShowScroll(false)
         }
     }
@@ -21,7 +21,7 @@ const ScrollTopArrow = () => {
 
     return (
         <div id="return-to-top" style={{ display: showScroll ? 'block' : 'none' }} onClick={scrollTop}>
-            <FontAwesomeIcon icon={[ 'fas', 'arrow-up' ]}/>
+            <FontAwesomeIcon icon={[ 'fas', 'arrow-up' ]} style={{ paddingLeft: 2 }}/>
         </div>
     )
 }
