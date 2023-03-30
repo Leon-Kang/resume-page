@@ -1,16 +1,3 @@
-# React TypeScript Resume Web Template
-A lightweight React-TypeScript resume web template for all people.
-
-[LIVE DEMO](https://kiendang.com)
-
-## Do you want to use it on your own?
-
-This project is completely free of charge. It can be customised and used by anybody simply by modifying JSON config and components to tailor with their needs.
-
-If you would like to use this template for your own personal resume website, read on to find how to build your own copy.
-
-**The output files are just JavaScript and HTML.** 🤩
-
 ## Requirements
 
 - [Node.js](https://nodejs.org/) (the most recent LTS version)

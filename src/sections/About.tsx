@@ -34,7 +34,7 @@ export class About extends React.Component {
                             <Row>
                                 <Col md={8}>
                                     <div dangerouslySetInnerHTML={{ __html: about.objective }}/>
-                                    <div className="mt-3 mb-3">
+                                    <div style={{ paddingTop: 14 }}>
                                         {/* <Button variant="kd">Download CV</Button> */}
                                         <a href={about.github} className="btn btn-kd" target="_blank"
                                            rel="noopener noreferrer">
